@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+
+int main()
+
+{
+    
+int nomer;
+    
+float temper;
+    
+char bukva;
+    
+double tochka;
+    
+nomer=50;
+    
+temper=25.57;
+    
+bukva= 'r';
+    
+tochka=555.754;
+    
+printf("Переменная целая: %u \n", nomer);
+    
+printf("Буква: %c \n", bukva);
+    
+printf("Переменная с гуляющей точкой: %f \n", temper);
+    
+printf("- // - даубл: %f \n", tochka);
+    
+nomer=nomer + 30;
+    
+printf("Сумма: %u \n", nomer);
+    
+bukva=bukva-5;
+    
+printf("Минус символ: %c \n", bukva);
+    
+temper=temper*3;
+    
+printf("Множим: %f \n", temper);
+    
+tochka=tochka/tochka;
+    
+printf("делим: %f \n", tochka);
+    
+return 0;
+
+}
