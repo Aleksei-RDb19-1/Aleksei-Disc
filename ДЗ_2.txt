@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+
+int main()
+{
+    
+int a;
+    
+int b;
+    
+int e=0;
+    
+printf("Введите числа А и В: ");
+    
+scanf("%d %d", &a, &b);
+    
+printf("Вы ввели А: %d\nВы ввели В: %d\n", a, b);
+    
+FILE *output;
+    
+output = fopen("output", "w");
+    
+while(a<=b){
+        
+e=a*3;
+        
+fprintf(output, "%d \n",e);
+        
+a++;
+    
+}
+   
+fclose(output);
+
+   
+return 0;
+
+}
