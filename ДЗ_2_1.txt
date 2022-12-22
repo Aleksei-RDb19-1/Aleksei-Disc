@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+
+int main()
+{
+    
+int number;
+    
+int n=1;
+    
+FILE *output;
+    
+output = fopen("output", "r");
+   
+ while (n<5){
+        
+fscanf(output, "%d ", &number);
+        
+printf("%d. %d\n", n, number);
+        
+n++;
+    
+}
+    
+fclose(output);
+
+    
+return 0;
+
+}
