@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    
+char a[40];
+    
+char *b;
+    
+cin>>a;
+    
+b=a;
+    
+while (*b){
+        
+(*b)++;
+        
+b++;
+    
+}
+    
+cout<<a;
+    
+return 0;
+
+}
