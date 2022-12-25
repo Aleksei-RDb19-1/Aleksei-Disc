@@ -1,0 +1,47 @@
+#include <iostream>
+
+#include <cstring>
+
+using namespace std;
+
+
+int main()
+{
+    
+int a;
+    
+char text[10][8]={
+        
+"zero",
+        
+"one",
+        
+"two",
+       
+"three",
+        
+"four",
+        
+"five",
+        
+"six",
+        
+"seven",
+        
+"eight",
+        
+"nine"
+    
+};
+
+    
+cout<<"¬ведите число от 0 до 9 и затем нажмите Enter: ";
+    
+cin>>a;
+    
+cout<<text[a]<<endl;
+
+    
+return 0;
+
+}
